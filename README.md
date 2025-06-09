@@ -33,7 +33,7 @@ shut_up_about_barclay_perkins_data_analysis/
 ├── Makefile                     # Workflow automation
 ├── requirements.txt             # Project dependencies
 └── README.md                    # This file
-'''
+```
 
 ## Use Cases
 
