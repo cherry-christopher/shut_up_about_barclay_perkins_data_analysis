@@ -17,6 +17,7 @@ This project uses web scraping, LLM-based table extraction, and one-hot encoding
 
 ## Project Structure
 
+```text
 shut_up_about_barclay_perkins_data_analysis/
 ├── data/
 │   └── raw_html/                # Scraped full HTML blog posts
@@ -32,14 +33,15 @@ shut_up_about_barclay_perkins_data_analysis/
 ├── Makefile                     # Workflow automation
 ├── requirements.txt             # Project dependencies
 └── README.md                    # This file
+'''
 
-Use Cases
+## Use Cases
 
 - How well do historical style labels correspond to data-driven ingredient clusters?
 - Are beer styles like "Porter" and "Stout" or "IPA" and "Pale Ale" physically distinct, or do they reflect evolving trade language?
 - Can you classify historical beer styles by ingredients alone?
 
-Tech Stack
+## Tech Stack
 
 requests - for web scraping
 BeautifulSoup - for HTML parsing
@@ -50,7 +52,7 @@ matplotlib - for visualization
 Makefile - for command-line automation
 GCS / BigQuery - optional cloud storage and analysis
 
-Development Status
+## Development Status
 
 Scraper with pagination complete
 Table extraction in progress
@@ -58,11 +60,11 @@ Feature encoding planned
 Modeling and analysis to follow
 License
 
-MIT License.
+## MIT License.
 All recipe content copyright Ron Pattinson.
 This project is for educational and research use only and is not affiliated with the original site.
 
-Author
+## Author
 
 Chris Cherry
 https://github.com/cherry-christopher
