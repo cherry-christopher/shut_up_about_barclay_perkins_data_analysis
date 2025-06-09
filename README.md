@@ -17,7 +17,6 @@ This project uses web scraping, LLM-based table extraction, and one-hot encoding
 
 ## Project Structure
 
-```text
 shut_up_about_barclay_perkins_data_analysis/
 ├── data/
 │   └── raw_html/                # Scraped full HTML blog posts
